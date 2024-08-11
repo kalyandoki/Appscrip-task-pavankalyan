@@ -1,0 +1,51 @@
+.check {
+  display: flex;
+  width: 250px;
+}
+.check-page {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.container-b {
+  width: 20%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.row-hide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-select {
+  width: 200px;
+  border: 0px;
+  font-weight: 600;
+}
+.men {
+  display: flex;
+  gap: 10px;
+}
+.un {
+  text-decoration: 1px solid underline;
+  color: rgb(175, 175, 69);
+  font-size: 15px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.ui-container-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ui-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+  }
+}
